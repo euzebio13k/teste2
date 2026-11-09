@@ -4,7 +4,7 @@ include('../includes/menu.php');
 include('../includes/rodape.php');
 ?>
 <main class="container">
-    <h1>Cadastrar Funcionario</h1>
+    <h1>Cadastrar um Super Funcionario</h1>
     <form method="POST" action="/consultorio/action/action_funcionario.php?action=cadastrar">
         Nome * : <input name="nome" type="text" class="form-control" required>
         CPF * : <input name="cpf" type="text" class="form-control" required>
